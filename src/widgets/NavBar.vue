@@ -17,6 +17,9 @@ export default defineComponent({
     menus: Object as PropType<MenuItemMeta[]>
   },
   data() {
+    return {
+      
+    }
   },
   computed: {
 

@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import { defineComponent } from "vue";
-import NavBar from "./NavBar.vue";
+import NavBar from "@/widgets/NavBar.vue";
 import { menuData } from "@/mock"
 import { Search } from "@element-plus/icons-vue"
 

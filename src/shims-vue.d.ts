@@ -4,3 +4,10 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module 'vue-video-js' {
+  import { VideoJsPlayer } from 'video.js'
+  export interface VideoPlayer extends VideoJsPlayer {
+    player: VideoJsPlayer
+  }
+}
